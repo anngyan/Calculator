@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <script>
+            let x = prompt("Input the first number");
+            let y = prompt("Input the second number");
+            let x1 = parseFloat(x);
+            let y1 = parseFloat(y);
+            let gumar = x1 + y1, art = x1 * y1, tarb = x1 - y1, qan = x1 / y1;
+            console.log("Գումար՝ " + gumar);
+            console.log("Արտադրյալ՝ " + art);
+            console.log("Տարբերություն՝ " + tarb);
+            console.log("Քանորդ՝ " + qan);
+            if(x1 % y1 !== 0); {
+                console.log("Բաժանելիս ստացված մնացորդ՝ " + x1 % y1);
+            }
+        </script>
+    </body>
+</html>
